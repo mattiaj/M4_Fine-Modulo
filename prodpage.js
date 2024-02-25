@@ -34,7 +34,7 @@ function createProdTemplate ({name, description, brand, imageUrl, price}) {
     let btnCart = document.createElement('a');
 
     // assegnazione classe
-    container.classList.add('d-flex', 'border','border-2','rounded', 'm-5');
+    container.classList.add('d-flex', 'flex-md-row', 'flex-column', 'border','border-2','rounded', 'm-5');
     img.classList.add('m-2')
     img.style.height = "400px";
     bodyContainer.classList.add('mx-3','my-2', 'd-flex', 'flex-column', 'justify-content-between')
