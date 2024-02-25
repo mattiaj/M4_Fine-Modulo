@@ -14,7 +14,7 @@ const brandInput = document.getElementById("input-brand");
 const createProduct = document.getElementById("create-product");
 createProduct.addEventListener("click", async () => {
    await addProduct();
-   await getResult;
+   await getResult();
 })
 
 // listener per far comparire la sezione per l'aggiunta di prodotti
